@@ -7,7 +7,7 @@ To run the model given in this repository, you need to download the pre-trained 
 
 Then, you need to either put this file in Yolov2 package under this repository or change the file_path regarding the weight file in 'load_pretrained_weights' function of YoloV2 module in Yolov2 package.
 
-Using main.py file, you can make predictions (object detection) either on an Image, Video, or Images captured from traffic camera using camera's url.
+Using __main.py__ file, you can make predictions (object detection) either on an Image, Video, or Images captured from traffic camera using camera's url.
 
 ## Install
 This project requires Python 2.7 or higher with the following libraries installed:
