@@ -7,7 +7,7 @@ To run the model given in this repository, you need to first download the pre-tr
 
 Then, you need to either put this file in *Yolov2* package or change the *file_path* regarding the weight file in *load_pretrained_weights* function of *YoloV2* module in *Yolov2* package. As you see, *Yolov2* is a python package containing two modules. The first one *YoloV2.py* enables us to instantiate an object of *YOLOv2* to start making predictions on images. The second one *Yolo_Utils.py* provides us with several tools required to decode the outputs of *YOLOv2* model.
 
-Using __main.py__ file, you can make predictions (object detection) either on an Image, Video, or Images captured from traffic camera using camera's url.
+Using __main.py__ file in the main directory, you can make predictions (object detection) either on an Image, Video, or Images captured from traffic camera using camera's url.
 
 ## Install
 This project requires Python 2.7 or higher with the following libraries installed:
