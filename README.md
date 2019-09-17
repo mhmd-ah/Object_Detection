@@ -1,7 +1,7 @@
 # Object_Detection
 
 ## Overview
-In this project, I built a YOLOv2 model using the pre-trained weights to identify different objects in one of the City of Calgary traffic cameras to recognize the rush hours in terms of number of cars, buses, bikes, and pedestrains. YOLO (you only look once) is a real-time object detection system. You can find more details on it on the authors' website that can be found [here](https://pjreddie.com/darknet/yolov2/).  
+In this project, I built a YOLOv2 model using the pre-trained weights to identify different objects in one of the City of Calgary traffic cameras to recognize the rush hours in terms of number of cars, buses, bikes, and pedestrains. YOLO (you only look once) is a real-time object detection system that has been amongst the most popular object detection algorithms. Three versions of YOLO has been released, and in this project I employed YOLOv2 which is capable of detecting 80 objects using a maximum of 5 anchor boxes per grid. You can find more details on [authors' website](https://pjreddie.com/darknet/yolov2/). All the publications regarding different versions of YOLO can be found [here](https://pjreddie.com/publications/). 
 
 To run the model given in this repository, you need to download the pre-trained weights of YOLOv2 ('yolo.h5') first. Several versions of weight files are available but the one I found the best can be found [here](https://drive.google.com/uc?id=11Q0Zq_bQSusPP8ALA3yeZq9j0yMfMBe-&export=download).  
 
