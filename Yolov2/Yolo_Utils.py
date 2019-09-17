@@ -143,15 +143,6 @@ def decode_net_output(net_output, anchor_boxes, obj_score_threshold=0.35, non_ma
 
 def draw_bboxes_image(image, bboxes, obj_labels):
     """
-    This function draws the final bounding boxes on the image.
-    :param image: This is the input image.
-    :param bboxes: This is the list of bounding boxes with their specifications listed as
-                    (x, y, w, h, score, obj_index).
-    :param obj_labels: This is a list containing the labels of all the objects that can be
-                        detected by YOLO model.
-    :return: It returns an image with the bounding boxes on it.
-    """
-    """
     This function draws the final bounding boxes on the image, and returns the resulting image.
 
     :param image: This is the input image with the shape of (416, 416, 3).
