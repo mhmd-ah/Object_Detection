@@ -5,7 +5,7 @@ In this project, I built a YOLOv2 model using the pre-trained weights to identif
 
 To run the model given in this repository, you need to first download the pre-trained weights of YOLOv2 ('yolo.h5'). Several versions of weight files are available but the one I found to be correct can be found [here](https://drive.google.com/uc?id=11Q0Zq_bQSusPP8ALA3yeZq9j0yMfMBe-&export=download).  
 
-Then, you need to either put this file in *Yolov2* package under this repository or change the *file_path* regarding the weight file in *__load_pretrained_weights__* function of *YoloV2* module in *Yolov2* package.
+Then, you need to either put this file in *Yolov2* package or change the *file_path* regarding the weight file in *load_pretrained_weights* function of *YoloV2* module in *Yolov2* package. As you see, *Yolov2* is a python package containing two modules. The first one *YoloV2.py* enables us to instantiate an object of *YOLOv2* to start making predictions on images. The second one *Yolo_Utils.py* provides us with several tools required to decode the outputs of *YOLOv2* model.
 
 Using __main.py__ file, you can make predictions (object detection) either on an Image, Video, or Images captured from traffic camera using camera's url.
 
