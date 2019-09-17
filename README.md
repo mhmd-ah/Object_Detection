@@ -19,6 +19,6 @@ This project requires Python 2.7 or higher with the following libraries installe
   * [matplotlib](https://matplotlib.org/)
   * [urllib](https://docs.python.org/2/library/urllib.html)
   
-## Files Needed To Be Downloaded:
+## Files:
   * [Pre-trained Weights of YoloV2](https://drive.google.com/uc?id=11Q0Zq_bQSusPP8ALA3yeZq9j0yMfMBe-&export=download)
 
