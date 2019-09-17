@@ -115,8 +115,7 @@ class Yolo:
         X = BatchNormalization(name='norm_13')(X)
         X = LeakyReLU(alpha=0.1, name='leakR_13')(X)
 
-        # To get better idea about Skip-Connection (ResNets) check this source:
-        # https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33
+        # Skip-Connection        
         X_shortcut = X
 
         X = MaxPool2D(pool_size=(2, 2), name='max_pool_13')(X)
