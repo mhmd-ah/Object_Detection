@@ -20,5 +20,6 @@ This project requires Python 2.7 or higher with the following libraries installe
   * [urllib](https://docs.python.org/2/library/urllib.html)
   
 ## Files:
+For this project, you need to download the pre-trained weights using the following link:
   * [Pre-trained Weights of YoloV2](https://drive.google.com/uc?id=11Q0Zq_bQSusPP8ALA3yeZq9j0yMfMBe-&export=download)
 
